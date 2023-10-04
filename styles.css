@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+header {
+    width: 100%;
+    margin: 0;
+    background: rgb(102, 118, 138);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    width: 30%;
+    font-size: 2rem;
+    color: white;
+    /* background: pink; */
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header-li,
+.hidden-li {
+    padding: 2rem;
+    list-style: none;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: -4rem;
+    width: 5%;
+}
+
+.donate {
+    width: 15%;
+    height: 4rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+
+#play-button {
+    width: 10%;
+    height: 2rem;
+}
+
+main {
+    background: rgb(102, 118, 138);
+    width: 100%;
+    padding-top: 5rem;
+}
+
+
+/* .why {
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.why h2 {
+    font-size: 3rem;
+}
+
+.why p {
+    padding: 1rem 25rem;
+    font-size: 1.5rem;
+} */
+
+
+main h1 {
+    width: 100%;
+    font-size: 5rem;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+main p {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    padding: 2em 20rem;
+}
+
+.video {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.video img {
+    margin-bottom: -0.25rem;
+}
+
+.video a {
+    text-decoration: none;
+    color: rgb(217, 213, 213);
+}
+
+.video span {
+    margin-left: -3rem;
+}
+
+.why {
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.why h2 {
+    font-size: 3rem;
+}
+
+.why p {
+    padding: 1rem 10rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.visit-gym {
+    float: left;
+    width: 100%;
+    height: 60rem;
+    padding: 10rem 10rem;
+    background: rgba(219, 223, 226);
+}
+
+.box-column-1 {
+    float: left;
+    width: 50%;
+}
+
+.box-column-2 {
+    float: left;
+    width: 50%;
+}
+
+.box-column-1 h3,
+.box-column-2 h3 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.box-column-2 p,
+.box-column-1 p {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 15%;
+    /* background: brown; */
+    font-size: 1.25rem;
+}
+
+.blue-box-image {
+    float: left;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 1rem;
+}
+
+.blue-image-button {
+    float: left;
+    width: 40%;
+    height: 4rem;
+    margin-left: 30%;
+    margin-top: 5rem;
+    font-size: 1.75rem;
+}
+
+.volunteer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: white;
+}
+
+.volunteer h2 {
+    font-size: 3rem;
+}
+
+.volunteer p {
+    padding: 1rem 10rem;
+    font-size: 1.5rem;
+}
+
+.volunteer-button {
+    width: 15%;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    background: white;
+    border: 1px solid black;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    background: rgba(22, 31, 42);
+    color: white;
+    padding: 2rem;
+}
+
+.footer-col1 {
+    float: left;
+    width: 33%;
+}
+
+.social-media-icons {
+    float: left;
+    width: 100%;
+}
+
+.social-media-icons img {
+    float: left;
+    width: 7.5%;
+    height: 2.75rem;
+}
+
+.spaced-icons {
+    margin-left: 1rem;
+}
+
+.more-info {
+    float: left;
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.more-info span {
+    float: left;
+    width: 100%;
+    font-size: 1.5rem;
+    color: rgb(102, 118, 138);
+}
+
+.more-info h5 {
+    float: left;
+    width: 15%;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.footer-col2 {
+    float: right;
+    width: 20%;
+    margin-right: 2rem;
+    padding: 1rem;
+}
+
+.company-name {
+    width: 100%;
+    /* background: red; */
+    /* padding-right: 1rem; */
+    text-wrap: wrap;
+}
+
+.company-name h6 {
+    width: 75%;
+    font-size: 1.25rem;
+    text-wrap: wrap;
+}
+
+.mma-h6 {
+    margin-bottom: 2rem;
+}
+
+.thin-h6 {
+    font-weight: lighter;
+}
+
+.bottom-row-foot {
+    clear: both;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    border-top: 1px solid white;
+}
+
+.bottom-row-foot p {
+    float: left;
+    width: 95%;
+}
+
+.bottom-row-foot img {
+    float: right;
+    width: 5%;
+    height: 4rem;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+
+/* MEDIA QUERIES BELOW!!!!!! */
+
+@media screen and (max-width: 1000px) {
+    .footer-col1 {
+        float: left;
+        width: 40%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .video {
+        display: none;
+    }
+
+    .logo {
+        margin-left: -4rem;
+        width: 7.5%;
+    }
+
+    .footer-col1 {
+        float: left;
+        width: 40%;
+    }
+
+    .social-media-icons {
+        float: left;
+        width: 100%;
+    }
+
+    .social-media-icons img {
+        float: left;
+        width: 10%;
+        height: 2.75rem;
+    }
+
+    .more-info {
+        float: left;
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .more-info span {
+        float: left;
+        width: 100%;
+        font-size: 1.5rem;
+        color: rgb(102, 118, 138);
+    }
+
+    .more-info h5 {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .hidden-li {
+        display: none;
+    }
+
+    .header-li {
+        margin-left: 2.5rem;
+    }
+
+    .logo {
+        margin-left: -4rem;
+        width: 7.5%;
+    }
+
+
+    main {
+        width: 100%;
+        background: rgb(102, 118, 138);
+        padding-top: 2rem;
+    }
+
+    main h1 {
+        width: 100%;
+        font-size: 3rem;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    main p {
+        width: 100%;
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+
+    }
+
+    .visit-gym {
+        width: 100%;
+        height: 100rem;
+        padding: 1rem 5rem;
+        background: rgba(219, 223, 226);
+    }
+
+    .box-column-1 {
+        width: 100%;
+        /* background: lime; */
+        margin: 2rem 0;
+    }
+
+    .box-column-2 {
+        float: left;
+        width: 100%;
+        /* background: lightskyblue; */
+    }
+
+    .box-column-1 h3,
+    .box-column-2 h3 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 1.75rem;
+    }
+
+    .box-column-2 p,
+    .box-column-1 p {
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 1rem 15%;
+        /* background: brown; */
+        font-size: 1.25rem;
+    }
+
+    .blue-box-image {
+        float: left;
+        width: 75%;
+        margin-left: 12.5%;
+        margin-bottom: 1rem;
+    }
+
+    .blue-image-button {
+        float: left;
+        width: 40%;
+        height: 4rem;
+        margin-left: 30%;
+        margin-top: 5rem;
+        font-size: 1.75rem;
+    }
+
+    #btn-see-classes {
+        margin-bottom: 2rem;
+    }
+
+    .social-media-icons img {
+        float: left;
+        width: 10%;
+        height: 2.75rem;
+    }
+
+    .bottom-row-foot img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .logo {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        /* background: rgb(102, 118, 138); */
+        padding-top: 0;
+    }
+
+    main h1 {
+        width: 100%;
+        font-size: 3rem;
+        color: white;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    main p {
+        width: 100%;
+        font-size: 1.25rem;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .why p {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        padding-bottom: 3rem;
+    }
+
+    .volunteer-button {
+        width: 50%;
+    }
+
+    .superfluous-h6 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .donate {
+        display: none;
+    }
+}
